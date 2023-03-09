@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-0j3_252%#*8nk3a%(yfz7^0!q=d*o(^cgz%6brvv6w)br98_d2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['word-otherword.herokuapp.com', 'localhost','127.0.0.1']
+ALLOWED_HOSTS = ['word-otherword.herokuapp.com', 'localhost','127.0.0.1','domainjackson-venturadenmark-8000.codio-box.uk']
+CSRF_TRUSTED_ORIGINS = ['https://samplemilan-bambinocinema-8000.codio-box.uk','http://domainjackson-venturadenmark-8000.codio-box.uk']
 
 # Application definition
 
